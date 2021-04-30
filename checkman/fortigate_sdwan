@@ -1,0 +1,12 @@
+title: FortiGate firewalls: SD-WAN Performance
+agents: snmp
+catalog: hw/network/fortinet
+license: GPL
+distribution: https://github.com/emanuel-bs/checkmk_fortigate_sdwan/releases
+author: Emanuel Batista de Souza <emanuel-bs@users.noreply.github.com>
+description:
+ This check monitors the Performance SLA of SD-WAN interfaces.
+item:
+ Performance health-check index.
+inventory:
+ Is created one service per interface member on each health-check configured.
