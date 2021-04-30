@@ -1,12 +1,12 @@
 # Checkmk extension for ...
 
-![build](https://github.com/jiuka/checkmk_phion/workflows/build/badge.svg)
-![flake8](https://github.com/jiuka/checkmk_phion/workflows/Lint/badge.svg)
-![pytest](https://github.com/jiuka/checkmk_phion/workflows/pytest/badge.svg)
+![build](https://github.com/emanuel-bs/checkmk_fortigate_sdwan/workflows/build/badge.svg)
+![flake8](https://github.com/emanuel-bs/checkmk_fortigate_sdwan/workflows/Lint/badge.svg)
+![pytest](https://github.com/emanuel-bs/checkmk_fortigate_sdwan/workflows/pytest/badge.svg)
 
 ## Description
 
-This is a template to develop Checkmk Extensions
+This check can monitor ``Performance SLA`` of SD-WAN interfaces on FortiGate firewalls.
 
 ## Development
 
