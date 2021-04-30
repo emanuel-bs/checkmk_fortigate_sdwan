@@ -1,11 +1,11 @@
 {
-    'author': u'',
-    'description': u'',
+    'author': u'Emanuel Batista de Souza <emanuel-bs@users.noreply.github.com>',
+    'description': u'This check monitors the Performance SLA of SD-WAN interfaces',
     'download_url': '',
     'files': {
-        'agent_based': [],
+        'agent_based': ['fortigate_sdwan.py'],
         'agents': [],
-        'checkman': [],
+        'checkman': ['fortigate_sdwan'],
         'checks': [],
         'doc': [],
         'inventory': [],
@@ -13,8 +13,8 @@
         'pnp-templates': [],
         'web': []
     },
-    'name': '',
-    'title': u'',
+    'name': 'fortigate_sdwan',
+    'title': u'FortiGate firewalls: SD-WAN Performance',
     'version': '0.1',
     'version.min_required': '2.0.0',
     'version.packaged': '2.0.0'
