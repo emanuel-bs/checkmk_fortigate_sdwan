@@ -1,4 +1,4 @@
-# Checkmk extension for ...
+# Checkmk extension for FortiGate firewalls
 
 ![build](https://github.com/emanuel-bs/checkmk_fortigate_sdwan/workflows/build/badge.svg)
 ![flake8](https://github.com/emanuel-bs/checkmk_fortigate_sdwan/workflows/Lint/badge.svg)
