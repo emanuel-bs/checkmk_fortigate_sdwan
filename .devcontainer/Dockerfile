@@ -1,6 +1,6 @@
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.155.1/containers/ubuntu/.devcontainer/base.Dockerfile
 
-# [Choice] Ubuntu version: 1.6.0-latest, 2.0.0-latest
+# [Choice] Checkmk version: 1.6.0-latest, 2.0.0-latest
 ARG VARIANT="2.0.0-latest"
 FROM checkmk/check-mk-raw:${VARIANT}
 
