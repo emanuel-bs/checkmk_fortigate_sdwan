@@ -8,6 +8,17 @@
 		"args": { "VARIANT": "2.0.0-latest" }
 	},
 
+	// "features": {
+	// 	"python": "latest"
+
+	// },
+	
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python",
+		"littlefoxteam.vscode-python-test-adapter"
+	],
+
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
 		"terminal.integrated.profiles.linux": {
@@ -16,17 +27,12 @@
 				"icon": "terminal-bash"
 			}
 		},
-		"terminal.integrated.defaultProfile.linux": "bash"
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"python.defaultInterpreterPath": "python"
 	},
 
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"ms-python.python",
-		"littlefoxteam.vscode-python-test-adapter"
-	],
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8080,5000],
+	"forwardPorts": [5000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": ".devcontainer/symlink.sh",
