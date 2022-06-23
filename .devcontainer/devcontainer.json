@@ -4,23 +4,35 @@
 	"name": "Checkmk",
 	"build": {
 		"dockerfile": "Dockerfile",
-		// Update 'VARIANT' to pick an Ubuntu version: focal, bionic
+		// Update 'VARIANT' to a checkmk version
 		"args": { "VARIANT": "2.0.0-latest" }
 	},
 
-	// Set *default* container specific settings.json values on container create.
-	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
-	},
+	// "features": {
+	// 	"python": "latest"
 
+	// },
+	
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-python.python",
 		"littlefoxteam.vscode-python-test-adapter"
 	],
 
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "/bin/bash",
+				"icon": "terminal-bash"
+			}
+		},
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"python.defaultInterpreterPath": "python"
+	},
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [5000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": ".devcontainer/symlink.sh",
