@@ -5,7 +5,6 @@ from cmk.gui.valuespec import (
     Integer,
     Float,
     Percentage,
-    MonitoringState,
     TextAscii,
 )
 from cmk.gui.plugins.wato import (
