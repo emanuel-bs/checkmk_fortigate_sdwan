@@ -5,7 +5,7 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 		// Update 'VARIANT' to a checkmk version
-		"args": { "VARIANT": "2.0.0-latest" }
+		"args": { "VARIANT": "2.1.0-latest" }
 	},
 
 	// "features": {

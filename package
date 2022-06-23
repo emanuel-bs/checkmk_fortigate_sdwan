@@ -16,6 +16,6 @@
     'name': 'fortigate_sdwan',
     'title': u'FortiGate firewalls: SD-WAN Performance',
     'version': '0.3b',
-    'version.min_required': '2.0.0',
-    'version.packaged': '2.0.0'
+    'version.min_required': '2.1.0',
+    'version.packaged': '2.1.0'
 }
