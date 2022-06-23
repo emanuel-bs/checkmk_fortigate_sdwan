@@ -29,4 +29,4 @@ To build the package hit `Crtl`+`Shift`+`B` to execute the build task in VSCode.
 
 ### Github Workflow
 
-The provided Github Workflows run `pytest` and `flake8` in the same checkmk docker conatiner as vscode.
+The provided Github Workflows run `pytest` and `flake8` in the same checkmk docker container as vscode.
